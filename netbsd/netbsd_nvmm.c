@@ -6,7 +6,7 @@ int nvmm_start(){
     string[] initialcommands = {"modload nvmm","chown USER:wheel /dev/nvmm", "sudo pkgin install qemu"};
 
     for(int i = 0; i<sizeOf(initialcommands);i++){
-        system(command[i]);
+        system(initialcommand[i]);
     }
 
     return 0;

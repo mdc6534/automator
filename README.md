@@ -12,9 +12,9 @@ To-Do
 
 Other Automators
 
---lite_forking
---Etsy Uploader
---html_site_gen
+--lite_forking<br>
+--Etsy Uploader<br>
+--html_site_gen<br>
 
 FAQ
 ===
