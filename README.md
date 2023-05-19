@@ -7,6 +7,24 @@ Cliff notes version of the readme:
 
 2. No Warranty. You assume all risk for using these. I am NOT responsible for data loss, corruption or anything else that happens as a result of you using these files for your own use. Make sure that you back everything up.
 
+Why C and Other Systems programming?
+====================================
+
+First off, I am well aware shell scripting exists. And I have done it before. Shell scripting could solve 90% of the stuff in these repositories just fine. Those will be coming later. 
+
+Shell scripting would fix and be easier to use for the vast majority of these simple tasks. And could more readily imported into the /usr/bin (or wherever the binaries exist on your system). 
+
+Second, I wanted to get into using C,C++, and Rust programming. I wanted to create some basic programs first and work my way up into more complex examples in the repositories. You have to crawl before you work your way up.
+
+There is also a method to the madness-eventually I would like to interface many of the C files in a C++ GUI frontend. 
+
+Third, this is not a ChatGPT experiment. I get they are simple and seem like they are a spoof on actual code. I am keeping what I can simple on purpose so I can create some references for myself as I build my knowlesge of these kinds of programming up to more complex situations.
+
+So why no readmes in the base folders?
+======================================
+
+I have tried to title the files to allude to what they are supposed to be doing. For example, openbsd_vmm_setup.c is the C file that you can use towards setting up some basic virtual machines on OpenBSD. I have tried to make it simple to deduce what is going on.
+
 To-Do
 =====
 
