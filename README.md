@@ -19,3 +19,7 @@ Second off, I don't want to have to manage contributions back. These are largely
 2. Why target certain operating systems?
 
 Because I can and I am interested in these particular systems. And I would to at least try to contribute back even if the developers never officially incorporate the files into their systems. 
+
+Please donate:
+
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="mdcarroll6P" data-color="#5F7FFF" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
