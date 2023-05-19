@@ -7,6 +7,15 @@ Cliff notes version of the readme:
 
 2. No Warranty. You assume all risk for using these. I am NOT responsible for data loss, corruption or anything else that happens as a result of you using these files for your own use. Make sure that you back everything up.
 
+To-Do
+=====
+
+Other Automators
+
+--lite_forking
+--Etsy Uploader
+--html_site_gen
+
 FAQ
 ===
 
@@ -19,6 +28,9 @@ Second off, I don't want to have to manage contributions back. These are largely
 2. Why target certain operating systems?
 
 Because I can and I am interested in these particular systems. And I would to at least try to contribute back even if the developers never officially incorporate the files into their systems. 
+
+Support Me
+==========
 
 Please donate:
 
