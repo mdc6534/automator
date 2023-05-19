@@ -20,10 +20,21 @@ There is also a method to the madness-eventually I would like to interface many 
 
 Third, this is not a ChatGPT experiment. I understand they are simple and seem like they are a spoof on actual usable code compared to what is actually in the source tree. I am keeping what I can simple on purpose so I can create some references for myself as I build my knowlesge of these kinds of programming up to more complex situations.
 
+Fourth, much of the code is based off of my poor Googling skills and poking around the man pages or reference pages on the operating systems. Many of them are patched together in a poor way and I hope to rectify in time.
+
+References Consulted
+====================
+
+https://www.educative.io/blog/concatenate-string-c<br>
+https://stackoverflow.com/questions/19209141/how-do-i-execute-a-shell-built-in-command-with-a-c-function<br>
+https://www.programiz.com/c-programming/c-input-output<br>
+
 So why no readmes in the base folders?
 ======================================
 
-I have tried to title the files to allude to what they are supposed to be doing. For example, openbsd_vmm_setup.c is the C file that you can use towards setting up some basic virtual machines on OpenBSD. I have tried to make it simple to deduce what is going on.
+I have tried to title the files to allude to what they are supposed to be doing. For example, openbsd_vmm_setup.c is the C file that you can use towards setting up some basic virtual machines on OpenBSD. I have tried to make it simple to deduce what is going on. 
+
+EDIT: I have started adding basic readmes to provide basic ideas as to what the files do since I am an idiot and didn't comment much of the files. 
 
 To-Do
 =====
