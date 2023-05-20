@@ -11,6 +11,10 @@ int omniosbhyvecompatchecker(){
 //function to create a simple bhyve vm
 
 int omniosbhyvesetupnewvm(){
+
+    char zone_bhyve_name;
+    char zone_size;
+    
     printf("Enter zone name: ");
     scanf("%s", &zone_bhyve_name);
     printf("Enter zone size: ");
