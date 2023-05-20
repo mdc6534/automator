@@ -43,9 +43,18 @@ class basicJavaSwingGenerator():
     def jdialog():
         pass
 
+#class menu
+
+class menu():
+    def __init__():
+        pass
+
+    def menu():
+        pass 
+
 #main procedure
 
 def main():
-    pass
+    menu.menu()
 
 main():
