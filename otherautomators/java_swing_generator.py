@@ -22,6 +22,9 @@ class basicJavaSwingGenerator():
     def jscrollpane(name):
         return "JScrollPane " + name + "scrollpane = new JScrollPane();\n"
 
+    def jtextarea_in_jscrollpane(name,editable_boolean):
+        pass
+
     def jmenubar():
         return "JMenuBar menubar = new JMenuBar();\n setJMenuBar(menubar);\n menubar.add(filemenu);\n" 
 
@@ -50,7 +53,7 @@ class menu():
         pass
 
     def menu():
-        print("1. Generate Elements")
+        print("1. Generate Elements To Files")
         choice = int(input("Enter choice of selection: "))
 
 #main procedure

@@ -12,9 +12,13 @@ int modificationPhoto[] = {5,10,20,30,40,50,60,70,80,90,100,110,120,130,140,150,
 
 //determines the sepia output
 
-int sepia(){
+int sepia(string image){
 
     for(int i = 0; i++; i < 21){
+
+        string command = "convert " + image + " -sepia-tone 80%% sepia-tone-" + image;
+        const char* commandchar = command.c_str();
+        system(commandchar);
           
     }
 
@@ -22,9 +26,12 @@ int sepia(){
 
 //determines the grayscale output
 
-int grayscale(){
+int grayscale(string image){
 
     for(int i = 0; i++; i < 21){
+        string command = "convert " + image + " -grayscale grayscale_" + image;
+        const char* commandchar = command.c_str();
+        system(commandchar);
           
     }
 
