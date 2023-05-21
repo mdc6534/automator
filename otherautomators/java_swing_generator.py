@@ -10,38 +10,35 @@ class basicJavaSwingGenerator():
     def __init__():
         pass 
     
-    def jlabel():
-        pass 
+    def jlabel(name):
+        return "JLabel " + name + "label = new JLabel(\"" + name.title() +"\");\n"
 
-    def jtextfield():
-        pass 
+    def jtextfield(name,size):
+        return "JTextField " + name + "textfield = new JTextField(" + size + ");\n"
 
-    def jtextarea():
-        pass 
+    def jtextarea(name,editable_boolean):
+        return "JTextArea " + name + "textarea = new JTextArea();\n" + name + "textarea.setEditable(\"" + editable_boolean + "\");\n" 
     
-    def jtable():
-        pass 
-    
-    def jscrollpane():
-        pass 
+    def jscrollpane(name):
+        return "JScrollPane " + name + "scrollpane = new JScrollPane();\n"
 
     def jmenubar():
-        pass 
+        return "JMenuBar menubar = new JMenuBar();\n setJMenuBar(menubar);\n menubar.add(filemenu);\n" 
 
     def filemenu():
-        pass 
+        return "JMenu filemenu = new JMenu(\"File\");\n" 
 
     def quit_item():
-        pass 
+        return "JMenuItem quititem = new JMenuItem(\"Quit\");\n filemenu.add(quititem);\n" 
     
     def about_item():
-        pass 
+        return "JMenuItem aboutitem = new JMenuItem(\"About\");\nfilemenu.add(aboutitem);\n filemenu.addSeparator();\n" 
 
     def jpanel():
-        pass
+        return "JPanel panel = new JPanel();"
 
-    def jdialog():
-        pass
+    def jdialog(name):
+        return "import java.awt.*;\n import javax.swing.*;\n\n public class " + name.title + "Dialog extends JDialog{\n public " + name.title + "Dialog(){\n \n} "+"\n}"
 
 #class menu
 
@@ -49,12 +46,16 @@ class menu():
     def __init__():
         pass
 
+    def elementsmenu():
+        pass
+
     def menu():
-        pass 
+        print("1. Generate Elements")
+        choice = int(input("Enter choice of selection: "))
 
 #main procedure
 
 def main():
     menu.menu()
 
-main():
+main()
