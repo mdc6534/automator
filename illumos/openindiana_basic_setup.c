@@ -22,7 +22,7 @@ int make_pkgsrc_work_setup_desktop(){
 
     //string arrays for stuff
 
-    char commands[] = {"sudo pkg install git xsvc","sudo chmod +x bootstrap.sh","sudo ./bootstrap.sh","source /etc/profile","pfexec pkg set-publisher -G '*' -g https://sfe.opencsw.org/localhostoih localhostoih"};
+    char commands[] = {"sudo pkg install git xsvc","sudo chmod +x bootstrap.sh","sudo ./bootstrap.sh","source /etc/profile","pfexec pkg set-publisher -G '*' -g https://sfe.opencsw.org/localhostoih localhostoih","wget https://gitweb.gentoo.org/repo/proj/prefix.git/plain/scripts/bootstrap-bash.sh", "chmod +x bootstrap-bash.sh","./bootstrap-bash.sh /var/tmp/bash","export PATH=\"/var/tmp/bash/usr/bin:${PATH}\"","wget https://gitweb.gentoo.org/repo/proj/prefix.git/plain/scripts/bootstrap-prefix.sh","chmod +x bootstrap-prefix.sh","./bootstrap-prefix.sh"};
     char profile[] = {"PKGSRC_BIN=/opt/local/bin","PKGSRC_SBIN=/opt/local/sbin","PKGSRC_MAN=/opt/local/man","PATH=${PKGSRC_SBIN}:${PKGSRC_BIN}:${PATH}","MANPATH=${PKGSRC_MAN}:${MANPATH}","export PATH","export MANPATH"};
     
     //attach stuff to the user's profile

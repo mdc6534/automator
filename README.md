@@ -10,7 +10,7 @@ Cliff notes version of the readme:
 What's the point of this?
 =========================
 
-This is a learning experiment for myself. I have dabbled with basic scripting and basic programming. This is to help start the process of getting more involved on the systems side of programming rather than the interpreted side of programming.
+This is a learning experiment for myself. I have dabbled with basic scripting and basic programming. This is to help start the process of getting more involved on the systems side of programming rather than the interpreted side of programming. Python, Lua, Ruby and others are great in a pinch. Heck, even shell is a useful thing from time to time. However, I wanted to start exploring the side of things where I would be compiling things. 
 
 Why C and Other Systems Programming?
 ====================================
