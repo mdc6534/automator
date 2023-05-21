@@ -3,8 +3,12 @@
 #include <iostream>
 #include <iomanip>
 #include <bits/stdc++.h>
+#include <dirent.h>
+#include <filesystem> //C++ 17 and later
+#include <stdio.h>
 
 using namespace std;
+namespace recursive_directory_iterator = std::filesystem::recursive_directory_iterator;
 
 //array for the modifications
 
@@ -86,5 +90,8 @@ int main(){
 
     //loop through the photos in the folder 
     
-    
+    for (const auto& dirEntry : recursive_directory_iterator(folder)){
+     std::cout << dirEntry << std::endl;
+    }
+
 }

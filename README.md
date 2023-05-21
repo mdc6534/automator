@@ -27,6 +27,8 @@ References Consulted
 https://www.educative.io/blog/concatenate-string-c<br>
 https://stackoverflow.com/questions/19209141/how-do-i-execute-a-shell-built-in-command-with-a-c-function<br>
 https://www.programiz.com/c-programming/c-input-output<br>
+https://www.cppstories.com/2019/04/dir-iterate/<br>
+https://www.w3schools.com/cpp/cpp_arrays_loop.asp<br>
 
 So why no readmes in the base folders as of yet?
 ======================================
