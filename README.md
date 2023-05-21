@@ -19,7 +19,7 @@ First off, I am well aware shell scripting exists. And I have done it before. Sh
 
 Second, I wanted to get into using C,C++, and Rust programming. I wanted to create some basic programs first and work my way up into more complex examples in the repositories. You have to crawl before you work your way up. There is also a method to the madness-eventually I would like to interface many of the C files in a C++ GUI frontend. Until then, I am just trying to get a few of the basics that I need down and organized according to what operating system that they are on. 
 
-Third, this is not a ChatGPT experiment. It seems like it and I can understand that many might feel like this is such. I understand they are simple and seem like they are a spoof on actual usable code compared to what is actually in the source tree or other better pieces of code. I am keeping what I can simple on purpose so I can create some references for myself as I build my knowlesge of these kinds of programming up to more complex type structures and programs.
+Third, this is not a ChatGPT experiment. It seems like it and I can understand that many might feel like this is such. I understand they are simple and seem like they are a spoof on actual usable code compared to what is actually in the source tree or other better pieces of code. I am keeping what I can simple on purpose so I can create some references for myself as I build my knowledge of these kinds of programming up to more complex type structures and programs.
 
 References Consulted
 ====================
