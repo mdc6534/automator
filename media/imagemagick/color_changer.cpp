@@ -8,7 +8,6 @@
 #include <stdio.h>
 
 using namespace std;
-namespace recursive_directory_iterator = std::filesystem::recursive_directory_iterator;
 
 //array for the modifications
 
@@ -83,7 +82,10 @@ void brightnessmod(string image){
 
 //main runtime
 
-int main(){
+void main(){
+
+    using recursive_directory_iterator = std::filesystem::recursive_directory_iterator;
+
     string folder;
     cout << "Enter folder: ";
     cin >> folder;
@@ -91,7 +93,7 @@ int main(){
     //loop through the photos in the folder 
     
     for (const auto& dirEntry : recursive_directory_iterator(folder)){
-     std::cout << dirEntry << std::endl;
+        std::cout << dirEntry << std::endl;
     }
 
 }
