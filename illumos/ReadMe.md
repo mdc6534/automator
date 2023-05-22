@@ -1,6 +1,11 @@
 README.MD
 =========
 
+openindiana_basic_commands and openindiana_basic_setup
+======================================================
+
+Files that can be used to help automate setting up of pkgsrc and gentoo prefix on an OpenIndiana system
+
 pkgsrc_setup_illumos.c
 ======================
 
