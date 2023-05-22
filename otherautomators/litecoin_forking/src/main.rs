@@ -1,3 +1,9 @@
+
+//menu
+
+//main runtime
+
 fn main() {
-    println!("Hello, world!");
+    println!("LiteCoin v0.15 Forking");
+    println!("======================");
 }

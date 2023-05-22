@@ -21,6 +21,11 @@ Second, I wanted to get into using C,C++, and Rust programming. I wanted to crea
 
 Third, this is not a ChatGPT experiment. It seems like it and I can understand that many might feel like this is such. I understand they are simple and seem like they are a spoof on actual usable code compared to what is actually in the source tree or other better pieces of code. I am keeping what I can simple on purpose so I can create some references for myself as I build my knowledge of these kinds of programming up to more complex type structures and programs.
 
+Why Include Some Python and NodeJS?
+===================================
+
+These are just basic utilities that can help make it easier to setup the other files. A prime example is the file_to_c_array.py where it takes a file and sets it up for being imported into a C array. This is ideal if you want to take something else and set it up to be in a compiled program (like you are automating the creation of Wordpress themes for example).
+
 References Consulted
 ====================
 

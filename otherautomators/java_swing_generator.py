@@ -23,7 +23,7 @@ class basicJavaSwingGenerator():
         return "JScrollPane " + name + "scrollpane = new JScrollPane();\n"
 
     def jtextarea_in_jscrollpane(name,editable_boolean):
-        pass
+        return "JTextArea " + name + "textarea = new JTextArea();\n " + name + "textarea.setEditable(\"" + editable_boolean + "\");\n JScrollPane " + name +"scrollpane = new JScrollPane(" + name + "textarea);\n"
 
     def jmenubar():
         return "JMenuBar menubar = new JMenuBar();\n setJMenuBar(menubar);\n menubar.add(filemenu);\n" 
